@@ -1,0 +1,50 @@
+;sample code
+data segment
+var1 db 5,5
+var2 dw 5
+vars db 'a','b'
+var3 dd ?
+data ends
+
+code segment
+	assume: cs:code, ds:data
+
+start:
+	m ax,dx
+label1:
+	mov bx,[100H]
+label2:
+	mov bx,[var1]
+label3:
+	mov ax,var1
+label4:
+	mov bx,[ax]
+label5:
+	mov [100H],bx
+label6:
+	mov var1,bx
+label7:
+	mov [var1],bx
+label8:
+	mov [bx],bx
+label9:
+	mov bx,100H
+label10:
+	mov bx,var1[ax]
+label11:
+	mov bx,var1[ax+6]
+label12:
+	mov bx,ax+9
+label13:
+	mov bx,[ax][si]
+label14:
+	mov bx,[var1+9]
+label15:
+	mov bx,[var1+ax]
+label16:
+	add bx,[ax+9]
+label17:
+	mov [var1+5],9
+label99:
+code ends
+end

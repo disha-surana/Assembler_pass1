@@ -1,0 +1,32 @@
+
+                          SYMBOL TABLE 
+=======================================================================
+
+NAME           SIZE           TYPE        SEGMENT         OFFSET
+
+=======================================================================
+data             -5        SEGMENT       (ITSELF)          00000
+var1              1            VAR          data           00000
+var2              2            VAR          data           00002
+vars              1            VAR          data           00004
+var3              4            VAR          data           00006
+code             -5        SEGMENT       (ITSELF)          00000
+start             -1          LABEL          code           00000
+label1             -1          LABEL          code           00002
+label2             -1          LABEL          code           00004
+label3             -1          LABEL          code           00006
+label4             -1          LABEL          code           00008
+label5             -1          LABEL          code           0000A
+label6             -1          LABEL          code           0000C
+label7             -1          LABEL          code           0000E
+label8             -1          LABEL          code           00010
+label9             -1          LABEL          code           00012
+label10             -1          LABEL          code           00015
+label11             -1          LABEL          code           00019
+label12             -1          LABEL          code           0001D
+label13             -1          LABEL          code           00021
+label14             -1          LABEL          code           00025
+label15             -1          LABEL          code           00029
+label16             -1          LABEL          code           0002D
+label17             -1          LABEL          code           00031
+label99             -1          LABEL          code           00036
